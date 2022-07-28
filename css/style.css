@@ -1,0 +1,590 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Styling starts Here */
+
+/* Header1 Styling */
+.header1{
+    background-color: rgba(208, 212, 220, 0.631);
+}
+
+
+.header1 .fa-solid{
+    font-size: 30px;
+    color: orangered;
+}
+
+.header1 h2{
+    color: rgb(93, 20, 69);
+    font-size: 20px;
+}
+
+.header1 p{
+    color: rgb(7, 38, 38);
+    font-size: 15px;
+}
+
+/* Header2 Styling */
+
+.header2 .fa-solid{
+    font-size: 30px;
+    color: orangered;
+}
+
+#subjectDropdown::after{
+    margin-right: 40px;
+
+}
+
+.header2 .subject{
+    background-color: rgba(208, 212, 220, 0.631);
+
+}
+
+#navbarSupportedContent ul li a{
+    color: rgb(93, 20, 69);
+    font-weight: 500;
+    
+}
+
+#navbarSupportedContent .btn{
+    background-color: orangered;
+    color: white;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbarSupportedContent .btn{
+        width: 70%;
+        margin-left: 40px;
+    }
+}
+
+.header2{
+    font-size: 18px;
+}
+
+/* background Slide Style  */
+.background-slide{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url("../images/carousel-1.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+@media only screen and (min-width: 600px){
+    .background-img{
+        width: 60%;
+        position: relative;
+        top: 203px;
+        left: 270px;
+    }
+    
+    .background-img h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .background-img h1{
+        color: white;
+        font-size: 70px;
+        font-weight:800;
+    }
+    
+    .background-img .btn{
+        padding-top: 30px;
+        background-color: orangered;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .background-slide{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .background-slide h3{
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .background-img h1{
+        color: white;
+        font-size: 30px;
+        font-weight:800;
+    }
+    
+    .background-img .btn{
+        padding-top: 5px;
+        background-color: orangered;
+        color: white;
+    }
+
+    .background-img{
+        width: 100%;
+        top: 50px;
+        left: 50px;
+    }
+   
+}
+
+
+/* About US Styling */
+
+.about-con{
+    margin-top: 110px;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about img{
+    width:400px;
+    height: 400px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .about-con{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .about img{
+        max-width: 280px;
+        max-height: 300px;
+        /* margin-left: auto; */
+    }
+
+    .about-con .card-body{
+        /* margin-left: auto; */
+    }
+}
+
+.about h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about h1{
+    color: rgba(23, 10, 34, 0.774);
+    font-weight: 700;
+}
+
+.about p{
+    color: rgba(145, 41, 57, 0.699);
+    font-size: 17px;
+}
+
+.about .btn{
+    background-color: orangered;
+    color: white;
+}
+
+/* Subject Section Styling */
+
+.subjects .sub1{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-1.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub2{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-2.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub3{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-3.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub4{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-4.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub5{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-5.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub6{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-6.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub7{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-7.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+}
+
+.subjects .sub8{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-8.jpg);
+    background-size: 100% 100%;
+    width: 250px;
+    height: 150px;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+
+    .subject-row1, .subject-row2{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subjects .sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8{
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+.subjects h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.subjects h1{
+    color: rgba(23, 10, 34, 0.774);
+    font-weight: 700;
+}
+
+.subjects .row h4{
+    color: white;
+}
+.subjects .row p{
+    color: white;
+}
+
+.subjects{
+    display: grid;
+    grid-row-gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.subjects .subject-row1, .subject-row2{
+    grid-column-gap: 20px;
+}
+
+/* Courses Section Styling */
+
+.courses .heading{
+    text-align: center;
+}
+
+.courses h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.courses h1{
+    color: rgba(23, 10, 34, 0.774);
+    font-weight: 700;
+}
+
+.courses img{
+    width: 354px;
+    height: 250px;
+}
+
+.courses .card p{
+    color: rgba(23, 10, 34, 0.774);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.courses .fa-users, .fa-star{
+    font-size: 16px;
+    color: orangered;
+}
+
+.courses .card{
+    background-color: #edf2f2;
+}
+
+/* Sign-Up Styling */
+
+.sign-up{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/registration.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.sign-up h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.sign-up h1{
+    color: white;
+    font-weight: 700;
+}
+
+.sign-up p{
+    color: white;
+}
+
+.sign-up .fa-check{
+    color: goldenrod;
+}
+
+.sign-up form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: goldenrod;
+  padding: 40px 10px;
+  margin: 0px 40px;
+
+}
+
+.sign-up form .btn {
+    background-color: rgba(23, 10, 34, 0.774);
+    color: white;
+    font-weight: 500;
+    border: 0;
+  
+  }
+
+.sign-up .sign-up-col2 .form-label{
+    margin: 0 40px;
+    padding: 20px;
+    color: rgba(23, 10, 34, 0.774);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+
+}
+
+.sign-up .sign-up-col2 {
+    border-radius: 200px;
+}
+
+/* Teachers Styling */
+
+.teachers h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.teachers h1{
+    color: rgba(23, 10, 34, 0.774);
+    font-weight: 700;
+}
+
+.teachers .card-body{
+    background-color: #dbd5db;
+}
+
+/* Testimonial stylings */
+
+
+.testimonial h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.testimonial h4{
+   color: #8c518c;
+   font-size: 27px;
+   font-weight: 400;
+}
+
+.testimonial h1{
+    color: rgba(23, 10, 34, 0.774);
+    font-weight: 700;
+}
+
+.testimonial p{
+    font-size: 20px;
+   color: #8c518c;
+
+}
+
+.testimonial span{
+    font-size: 15px;
+   color: #8c518c;
+
+}
+
+.testimonial .fa-quote-left{
+    color: orangered;
+    font-size: 60px;
+}
+
+.testimonial .fa-circle{
+    color: orange;
+    font-size: 25px;
+}
+
+/* Blog Section Styling */
+
+.blog-row{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 30px;
+
+}
+
+.blog .blog1{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/blog-1.jpg);
+    background-size: 100% 100%;
+    width: 333px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.blog .blog2{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/blog-2.jpg);
+    background-size: 100% 100%;
+    width: 333px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.blog .blog3{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/blog-3.jpg);
+    background-size: 100% 100%;
+    width: 333px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.blog h4{
+    color: white;
+    font-size: 26px;
+
+}
+
+.blog p{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blog h5{
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.blog h1{
+    color: rgba(23, 10, 34, 0.774);
+    font-weight: 700;
+}
+
+/* blog style end here  */
+
+/* Footer Stylings */
+
+.footer{
+    background-color: #784278;
+    height: 635px;
+}
+
+.footer1{
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 .about-ait{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 .fa-solid{
+    color: white;
+    font-size: 15px;
+}
+.footer1 .fa-brands{
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+}
+
+
+.footer1 h4{
+    color: goldenrod;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+
+.footer1 .about-ait p{
+    color: white;
+    font-size: 14px;
+    display: inline;
+    font-weight: 500;
+}
+
+/* Footer 2 styling */
+
+.footer2{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer2 ul{
+    display: flex;
+}
+
+.footer2 ul li{
+    padding-left: 30px;
+    list-style: none;
+}
+
+.news form .btn{
+    background-color: green;
+}
+
+/* footer 2 styling ends  */
