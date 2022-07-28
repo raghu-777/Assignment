@@ -395,7 +395,9 @@ body{
   }
 
 .sign-up .sign-up-col2 .form-label{
-    margin: 0 40px;
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 52px;
     padding: 20px;
     color: rgba(23, 10, 34, 0.774);
     font-size: 50px;
