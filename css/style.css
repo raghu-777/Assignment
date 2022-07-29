@@ -341,9 +341,10 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    courses{
+    .courses{
         margin-top: 50px;
     }
+    
 }
 
 /* Sign-Up Styling */
@@ -438,11 +439,12 @@ body{
     .sign-up .sign-up-col2 .form-label{
         font-size: 12px;
         padding: 7px 0px;
+        margin-right: 40px;
     
     }
 
     .sign-up .sign-up-col2 .form-bottom{
-        padding: 15px 0px;
+        padding: 10px 0px;
     
     }
     
@@ -457,7 +459,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     .teachers .card{
-        width: 22rem;
+        width: 103%;
         margin-top: 20px;
     }
 }
@@ -644,6 +646,16 @@ body{
 
 .footer1 .news{
     margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .footer1 .email-bottom{
+        width: 107%;
+    }
+
+    .footer .courses{
+        margin-top: 25px;
+    }
 }
 
 /* Footer 2 styling */
