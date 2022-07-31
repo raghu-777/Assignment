@@ -3,6 +3,7 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+
 /* Header Styling starts Here */
 
 /* Header1 Styling */
@@ -140,130 +141,68 @@ body{
     font-size: 18px;
 }
 
-/* background Slide Style  */
 
-.myslide .carousel-indicators {
-	bottom: auto;
-	top: 50%;
-	left: -15px;
-	right: auto;
-	margin: 0;
-    transform: rotate(90deg);
+/* About Page Background Image Styling starts */
 
+.about-bg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/page-header.jpg);
+    background-size: 100% 100%;
+    height: 400px;
 }
 
-.myslide .carousel-indicators button {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    border: 7px solid rgb(187, 138, 138);
-    color: transparent;
- }
-
- .myslide .carousel-indicators [data-bs-target]{
-    background-color: orangered;
- }
-
- .myslide .carousel-indicators [data-bs-target]:focus{
-    background-color: rgb(67, 29, 192);
-    border: 7px solid white;
- }
-
-.myslide h3{
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
+.about-background-img h1{
     text-transform: uppercase;
-}
-
-.myslide h1{
     color: white;
-    font-size: 70px;
-    font-weight:800;
-    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
 }
 
-.myslide .carousel-item{
-    background-color: black;
-}
-
-.myslide img{
-    opacity: 0.5;
-}
-
-.myslide .myslide-caption a{
+.about-background-img a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
-    font-weight: 700;
-    background-color: rgb(17, 185, 17);
-    padding: 12px 25px;
-    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
 }
 
-.myslide .myslide-caption{
-    text-align: left;
-    position: absolute;
-    top: 280px;
-    left: 270px;
+.about-background-img .fa-angles-right{
+    color: white;
+    font-size: 20px;
+}
 
+.about-background-img{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.about-background-img a:hover{
+    color: orangered;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
-
-    .myslide .myslide-caption{
-        text-align: left;
-        position: absolute;
-        top: 40px;
-        left: 65px;
-    
+    .about-background-img{
+        position: relative;
+        top: 80px;
+        left: 30px;
     }
 
-
-    .myslide .carousel .carousel-indicators {
-        left: -30px;
-    
+    .about-background-img h1{
+        font-size: 30px;
     }
     
-    .myslide .carousel-indicators button {
-        width: 13px;
-        height: 13px;
-        border: 5px solid rgb(187, 138, 138);
-
-     }
-     .myslide .carousel-indicators [data-bs-target]:focus{
-        border: 5px solid white;
-     }
-
-     .myslide .carousel-caption {
-        padding-bottom: 20px;
-      }
-
-    .myslide h3{
-        text-transform: uppercase;
-        color: white;
-        font-size: 15px;
-        font-weight: 500;
-    }
-    
-    .myslide h1{
-        color: white;
-        font-size: 26px;
-        font-weight:800;
-        margin-bottom: 15px;
-        
-
+    .about-background-img a{
+        font-size: 17px;
+        margin: 8px;
     }
 
-    .myslide .myslide-caption a{
-        font-size: 10px;
-        font-weight: 500;
-        padding: 8px 10px;
+    .about-bg{
+        height: 230px;
     }
-    
-  }
 
-
+}
 
 /* About US Section Styling */
 
@@ -326,201 +265,6 @@ body{
 
 /* Subject Section Styling */
 
-.subjects .sub1{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-1.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub1:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-.subjects .sub2{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-2.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub2:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-.subjects .sub3{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-3.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub3:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-.subjects .sub4{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-4.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub4:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-.subjects .sub5{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-5.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub5:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-.subjects .sub6{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-6.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub6:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-.subjects .sub7{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-7.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
-}
-
-.subjects .sub7:hover {
-    transition: all 1s;
-    background-size: 110%;
-}
-
-
-.subjects .sub8{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/cat-8.jpg);
-    background-size: 100% 100%;
-    width: 250px;
-    height: 150px;
- 
-}
-
-.subjects .sub8:hover{
-    transition: all 1s;
-    background-size: 110%;
-   
-}
-
-@media only screen and (max-width: 600px) {
-
-    .subject-row1, .subject-row2{
-        align-items: center;
-        justify-content: center;
-    }
-
-    .subjects .sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7, .sub8{
-        margin: 20px;
-        padding: 20px;
-    }
-}
-
-.subjects h5{
-    color: goldenrod;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.subjects h1{
-    color: rgba(23, 10, 34, 0.774);
-    font-weight: 700;
-}
-
-.subjects .row h4{
-    color: white;
-}
-.subjects .row p{
-    color: white;
-}
-
-.subjects{
-    display: grid;
-    grid-row-gap: 20px;
-    justify-content: center;
-    text-align: center;
-}
-
-.subjects .subject-row1, .subject-row2{
-    grid-column-gap: 20px;
-}
-
-/* Courses Section Styling */
-
-.courses .heading{
-    text-align: center;
-}
-
-.courses h5{
-    color: goldenrod;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.courses h1{
-    color: rgba(23, 10, 34, 0.774);
-    font-weight: 700;
-}
-
-.cou.myslide{
-    width: 354px;
-    height: 250px;
-}
-
-.courses .card p{
-    color: rgba(23, 10, 34, 0.774);
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.courses .fa-users, .fa-star{
-    font-size: 16px;
-    color: orangered;
-}
-
-.courses .card{
-    background-color: #edf2f2;
-}
-
-.courses .card-body{
-    height: 180px;
-}
-
-@media only screen and (max-width: 600px) {
-    .courses{
-        margin-top: 50px;
-    }
-    
-}
 
 /* Sign-Up Styling */
 
@@ -668,33 +412,8 @@ body{
    
 }
 
-/* Teachers Styling */
+/* Sign-Up Section Styling Ends Here  */
 
-.teachers .card{
-    width: 16rem;
-}
-
-@media only screen and (max-width: 600px) {
-    .teachers .card{
-        width: 103%;
-        margin-top: 20px;
-    }
-}
-
-.teachers h5{
-    color: goldenrod;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.teachers h1{
-    color: rgba(23, 10, 34, 0.774);
-    font-weight: 700;
-}
-
-.teachers .card-body{
-    background-color: #dbd5db;
-}
 
 /* Testimonial stylings */
 
@@ -822,85 +541,12 @@ body{
 
 /* Testimonial Styling Ends Here  */
 
-/* Blog Section Styling */
-
-.blog{
-    margin-top: 100px;
-}
-
-.blog-row{
-    display: grid;
-    justify-content: center;
-    grid-column-gap: 30px;
-
-}
-
-.blog .blog1{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/blog-1.jpg);
-    background-size: 100% 100%;
-    width: 333px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-.blog .blog2{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/blog-2.jpg);
-    background-size: 100% 100%;
-    width: 333px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
-}
-.blog .blog3{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/blog-3.jpg);
-    background-size: 100% 100%;
-    width: 333px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
-}
-
-.blog h4{
-    color: white;
-    font-size: 26px;
-
-}
-
-.blog p{
-    color: red;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.blog h5{
-    color: goldenrod;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.blog h1{
-    color: rgba(23, 10, 34, 0.774);
-    font-weight: 700;
-}
-
-@media only screen and (max-width: 600px) {
-    .blog .blog1, .blog2, .blog3{
-        margin-bottom: 15px;
-    }
-}
-
-/* blog style end here  */
-
 /* Footer Stylings */
 
 .footer{
     background-color: #784278;
     height: 575px;
+    margin-top: 150px;
 }
 
 .footer .logo {
@@ -964,6 +610,7 @@ body{
 
     .footer{
         height: 1200px;
+        margin-top: 100px;
     }
 
     .footer .courses{
@@ -1028,7 +675,7 @@ body{
 
 .Pageup-btn-link{
     position: absolute;
-    left: 96%;
+    left: 95%;
 
 }
 
@@ -1058,3 +705,10 @@ body{
 
 
 /* footer 2 styling ends  */
+
+
+
+
+
+
+/* About Page Background Image Styling Ends */
