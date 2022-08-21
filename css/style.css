@@ -900,7 +900,7 @@ body{
 
 .footer{
     background-color: #784278;
-    height: 575px;
+    height: auto;
 }
 
 .footer .logo {
